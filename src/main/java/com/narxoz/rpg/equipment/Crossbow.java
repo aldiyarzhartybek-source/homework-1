@@ -1,13 +1,13 @@
 package com.narxoz.rpg.equipment;
 
-public class IronSword implements Weapon {
+public class Crossbow implements Weapon {
 
     private int damage;
     private String weaponType;
 
-    public IronSword() {
-        this.damage = 25;
-        this.weaponType = "Sword";
+    public Crossbow() {
+        this.damage = 32;      // чуть сильнее лука
+        this.weaponType = "Crossbow";
     }
 
     @Override
@@ -17,9 +17,8 @@ public class IronSword implements Weapon {
 
     @Override
     public String getWeaponInfo() {
-        return "Iron Sword (Medieval) - Damage: " + damage + ", Type: " + weaponType+ " (Damage Boost)";
+        return "Crossbow (Ranger) - Damage: " + damage + ", Type: " + weaponType + " (High precision)";
     }
-
 
     @Override
     public String getWeaponType() {

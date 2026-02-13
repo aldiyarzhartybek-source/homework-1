@@ -1,13 +1,13 @@
 package com.narxoz.rpg.equipment;
 
-public class PlateArmor implements Armor {
+public class MagicRobes implements Armor {
 
     private int defense;
     private String armorType;
 
-    public PlateArmor() {
-        this.defense = 30;
-        this.armorType = "Plate";
+    public MagicRobes() {
+        this.defense = 10;
+        this.armorType = "Robes";
     }
 
     @Override
@@ -17,7 +17,7 @@ public class PlateArmor implements Armor {
 
     @Override
     public String getArmorInfo() {
-        return "Plate Armor (Medieval) - Defense: " + defense + ", Type: " + armorType + " (Health Boost)";
+        return "Magic Robes (Magic) - Defense: " + defense + ", Type: " + armorType + " (Mana Boost)";
     }
 
     @Override
