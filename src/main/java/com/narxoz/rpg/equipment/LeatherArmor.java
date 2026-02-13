@@ -6,7 +6,7 @@ public class LeatherArmor implements Armor {
     private String armorType;
 
     public LeatherArmor() {
-        this.defense = 20;
+        this.defense = 25;
         this.armorType = "Leather";
     }
 

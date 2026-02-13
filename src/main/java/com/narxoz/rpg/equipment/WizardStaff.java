@@ -6,7 +6,7 @@ public class WizardStaff implements Weapon {
     private String weaponType;
 
     public WizardStaff() {
-        this.damage = 15;
+        this.damage = 25;
         this.weaponType = "Staff";
     }
 

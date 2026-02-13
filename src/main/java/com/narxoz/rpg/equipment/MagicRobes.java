@@ -6,7 +6,7 @@ public class MagicRobes implements Armor {
     private String armorType;
 
     public MagicRobes() {
-        this.defense = 10;
+        this.defense = 5;
         this.armorType = "Robes";
     }
 

@@ -6,7 +6,7 @@ public class PlateArmor implements Armor {
     private String armorType;
 
     public PlateArmor() {
-        this.defense = 30;
+        this.defense = 50;
         this.armorType = "Plate";
     }
 

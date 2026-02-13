@@ -6,7 +6,7 @@ public class IronSword implements Weapon {
     private String weaponType;
 
     public IronSword() {
-        this.damage = 25;
+        this.damage = 35;
         this.weaponType = "Sword";
     }
 

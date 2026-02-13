@@ -6,7 +6,7 @@ public class Crossbow implements Weapon {
     private String weaponType;
 
     public Crossbow() {
-        this.damage = 32;      // чуть сильнее лука
+        this.damage = 30;
         this.weaponType = "Crossbow";
     }
 
