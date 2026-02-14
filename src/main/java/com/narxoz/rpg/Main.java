@@ -32,7 +32,7 @@ public class Main {
 
 
         Character mage = mageCreator.create("Gendalf");
-        System.out.println("[2] Created Mage");
+        System.out.println("[Created Mage");
         System.out.println(mage.getStats());
 
         mage.equip(magic.createWeapon(), magic.createArmor());
@@ -43,7 +43,7 @@ public class Main {
 
 
         Character archer = archerCreator.create("Robin Gyd");
-        System.out.println("[3] Created Archer");
+        System.out.println("[Created Archer");
         System.out.println(archer.getStats());
 
         archer.equip(ranger.createWeapon(), ranger.createArmor());
